@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Donlasan Khuphunsap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 900px;
+            display: flex;
+            background-color: #fff;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .left-column {
+            width: 35%;
+            background-color: #1d1d1d; 
+            color: #ffffff;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            position: relative;
+        }
+        .profile-pic-wrapper {
+            width: 160px;
+            height: 160px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid #ffffff;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            margin: 15px 0;
+            width: 100%;
+        }
+        .section-title i {
+            margin-right: 10px;
+        }
+
+        .contact-info, .skills ul {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #ffffff;
+            margin-top: 5px;
+        }
+        .contact-info p, .skills ul li {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .contact-info i, .skills ul li::before {
+            margin-right: 8px;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .right-column {
+            width: 65%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .name-title {
+            margin-left: 20px;
+        }
+        .name-title h1 {
+            font-size: 36px;
+            margin: 0;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .name-title h3 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #666;
+            margin: 10px 0 0;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+        .section h2 {
+            font-size: 16px;
+            color: #333;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .section h2 i {
+            margin-right: 10px;
+        }
+        .section p, .languages ul {
+            font-size: 14px;
+            color: #333;
+        }
+        .languages ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 5px;
+        }
+        .languages ul li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .languages ul li::before {
+            content: "•";
+            color: #333;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-column">
+        <div class="profile-pic-wrapper">
+            <div class="profile-pic">
+                <img src="c:\Profile Picture.jpg" alt="Profile Picture">
+            </div>
+        </div>
+
+        <div class="section-title">
+            <i class="fas fa-user"></i> About Me
+        </div>
+        <p class="about-text">I am a student in the School of Information and Communication Technology, majoring in Computer Science, with an interest in application and website development. Currently, I am looking for work experience in this field.</p>
+
+        <div class="section-title">
+            <i class="fas fa-address-book"></i> Contact
+        </div>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> 080 - 959 - 7104</p>
+            <p><i class="fas fa-envelope"></i> donlasankhuphunsup@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> University of Phayao</p>
+        </div>
+
+        <div class="section-title">
+            <i class="fas fa-lightbulb"></i> Skills
+        </div>
+        <div class="skills">
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>Database Management</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="name-title">
+            <h1>Donlasan <br> Khuphunsap</h1>
+            <h3>Computer Science Student</h3>
+        </div>
+        
+        <div class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <p><strong>University of Phayao</strong><br>Computer Science</p>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-language"></i> Language</h2>
+            <div class="languages">
+                <ul>
+                    <li>English</li>
+                    <li>Thai</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
